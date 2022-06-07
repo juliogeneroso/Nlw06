@@ -1,15 +1,15 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
+import 'firebase/compat/database';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_DATABSE_URL,
-  projectId: process.env.REACT_PROJECT_ID,
-  storageBucket: process.env.REACT_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_ID
+  apiKey: "AIzaSyCX0buvYcomnB7_vZA9pvpRtXaIZhxj5FY",//process.env.REACT_APP_APP_API_KEY,
+  authDomain: "letmeask-ac995.firebaseapp.com", //process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: "https://letmeask-ac995-default-rtdb.firebaseio.com",//process.env.REACT_APP_DATABSE_URL,
+  projectId: "letmeask-ac995",//process.env.REACT_APP_PROJECT_ID,
+  storageBucket: "letmeask-ac995.appspot.com",//process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: "906059873869",//process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: "1:906059873869:web:cd1a97ddaf82149be0e604"//process.env.REACT_APP_APP_ID
 };
 
 firebase.initializeApp(firebaseConfig)
